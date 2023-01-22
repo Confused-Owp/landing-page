@@ -69,12 +69,24 @@ button {
 }
 .info{
     padding: 24px;
-    background-color: #E5E7EB;
+
 }
 
 .info .title{
     font-size: 36px;
     font-weight: bolder;
+}
+.quote-container {
+    font-size: 36px;
+    font-style: italic;
+    background-color: #E5E7EB;
+    padding: 24px;
+}
+
+.byline {
+    text-align: end;
+    font-size: 16px;
+    font-style: bolder;
 }
 
 .footer {
