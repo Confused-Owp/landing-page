@@ -67,6 +67,14 @@ button {
     border: none;
     border-radius: 4px;
 }
+.info{
+    background-color: #E5E7EB;
+}
+
+.info .title{
+    font-size: 36px;
+    font-weight: bolder;
+}
 
 .footer {
     display: flex;
