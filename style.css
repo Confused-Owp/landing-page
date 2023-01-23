@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 8px;
+    gap: 24px;
     font-size: 18px;
 }
 a{
