@@ -51,8 +51,9 @@ a{
     font-size: 48px;
 }
 
-.content .text {
+ .intro-container .content .text {
     font-size: 18px;
+    text-align: start;
 }
 
 img {
@@ -75,19 +76,20 @@ button {
 .info-container .content {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 
 }
 
 .content .text {
     text-align: center;
+    font-size: 16px;
 }
 
 .info img {
-    height: 100px;
-    width: 100px;
-    padding: 100px;
+    height: 200px;
+    width: 200px;
     margin: 20px;
-    border: 2px solid #3882F6;
+    border: 5px solid #E5E7EB;
 }
 
 .info-container .title{
