@@ -69,14 +69,31 @@ button {
     border: none;
     border-radius: 4px;
 }
-.info{
-    padding: 24px;
+.info-container{
+    margin: 10px;
+}
+.info-container .content {
+    display: flex;
+    flex-direction: row;
 
 }
 
-.info .title{
+.content .text {
+    text-align: center;
+}
+
+.info img {
+    height: 100px;
+    width: 100px;
+    padding: 100px;
+    margin: 20px;
+    border: 2px solid #3882F6;
+}
+
+.info-container .title{
     font-size: 36px;
     font-weight: bolder;
+    text-align: center;
 }
 .quote-container {
     font-size: 36px;
